@@ -21,6 +21,11 @@ sortie. Toutes les longueurs sont en **millimetres**.
 - `main.py` — point d'entree en ligne de commande (argparse) : appelle
   `design_nozzle`, imprime un bilan synthetique et, en option, un tableau
   detaille des noeuds, puis appelle `plot_nozzle`.
+- `memory/` — memoire persistante du projet (fiches de contexte + index
+  `MEMORY.md`), versionnee dans le depot pour rester visible. L'emplacement
+  attendu par Claude Code (`~/.claude/projects/.../memory`) est un lien
+  symbolique vers ce dossier : les fiches sont donc a la fois chargees
+  automatiquement en debut de session et suivies par git.
 
 Lancer :
 
