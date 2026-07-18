@@ -28,6 +28,14 @@ Lancer :
 python3 main.py --help
 ```
 
+## Regles de travail
+
+- **Commiter regulierement, et pas seulement a la fin.** Faire un commit a
+  chaque etape logique / fonctionnalite terminee (par ex. : ajout d'une
+  fonction, correction d'un bug, mise a jour de la doc), avec un message clair
+  decrivant le changement. Ne pas accumuler tout le travail dans un unique
+  commit final.
+
 ## Conventions
 
 - Longueurs en **millimetres**.
