@@ -1,0 +1,6 @@
+# Artefacts Python
+__pycache__/
+*.pyc
+
+# Figures generees (regenerables via main.py --save)
+tuyere.png
